@@ -50,7 +50,7 @@ The following steps are to run through docker:
   docker run -e PUBLIC_KEY=$PUBLIC_KEY -e PRIVATE_KEY=$PRIVATE_KEY  marvel_characters_df
 ```
 
-Note: This running step will only show logs to export the dataframe to a local csv uncommnet line 252 and build the docker image again.
+Note: This running step will only show logs to export the dataframe to a local csv uncommnet line 252 and build the docker image again and make sure to map a docker volume.
 
 ## Remarks:
 The objective of this code was to reach a simple dataframe but the request code was built thinking about a possible evolution to a singer-tap or an airbyte connector.
