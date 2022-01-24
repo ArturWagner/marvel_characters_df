@@ -1,5 +1,5 @@
 # Marvel Characters DF
-This repository intends to create a Dataframe with data from [characters](http://gateway.marvel.com/v1/public/characters) request
+This repository intends to create a Dataframe with data from [characters](https://developer.marvel.com/docs#!) request
 
 ## Usage
 You can run this project locally or using Docker.
